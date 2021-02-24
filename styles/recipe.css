@@ -18,8 +18,8 @@ body{
     color: #404040;
     font-size: 11pt;
     font-family: Georgia, Garamond;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 80%;
+    margin-right: 80%;
     background-image: url("https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg");
     background-repeat: repeat;
 }
