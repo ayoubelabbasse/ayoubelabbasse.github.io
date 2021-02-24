@@ -6,7 +6,7 @@ body{
 a,li{
     margin-left: 20px;
     font-family: 'Nunito Sans',sans-serif;
-    color: #6c757d;
+    color: #313439;
 }
 h1{
     margin-left: 20px;
@@ -28,6 +28,9 @@ b{
 span.imdb-link{
     color: crimson;
 }
+.imdb-link:hover{
+    color: #0087cc;
+}
 
 ul{
     list-style-type: circle;
@@ -38,5 +41,22 @@ ol{
 }
 .mood-pic{
  float: left;
+}
+.caps:first-letter{
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+
+    font-size: 2em;
+}
+.movie{
+    list-style-type: none;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+.movie-detail{
+    color: #fffc00;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+.mov{
+    margin-left: 4%;
+    font-size: 13px;
 }
 
