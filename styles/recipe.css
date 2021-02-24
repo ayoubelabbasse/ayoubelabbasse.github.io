@@ -20,12 +20,12 @@ body{
     font-family: Georgia, Garamond;
     margin-left: 20px;
     margin-right: 20px;
-    background-image: url("pictures/silverware.jpg");
+    background-image: url("https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg");
     background-repeat: repeat;
 }
 ul{
     line-height: 150%;
-    list-style-image: url('pictures/pie_bullet.png');
+    list-style-image: url("https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif");
 }
 .comments{
     font-style:italic ;
