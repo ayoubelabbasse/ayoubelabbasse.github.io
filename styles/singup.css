@@ -1,0 +1,29 @@
+*{
+    font-family: Calibri;
+}
+fieldset{
+    width: 33%;
+    margin: auto;
+    background-color: #d1cff1;
+    border: 1px solid #d0c0d9;
+    margin-top: 6%;
+    border-radius: 2%;
+    padding: 1%;
+}
+legend{
+    background-color: white;
+    border: 2px outset #e7e5e5;
+}
+a{
+    color: #ea816e;
+}
+input[type=submit]{
+    background-color: #FAA;
+    font-size: 100%;
+    font-weight: bold;
+    border: 1px solid #fd9a9a;
+}
+fieldset .column {
+    float: left;
+    width: 11em;
+}
