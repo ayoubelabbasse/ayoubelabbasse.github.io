@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Retrieve Grade</title>
+    <link href="styles/grades.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div class="form">
+        <h1>Retrieve your grade</h1>
+        <form>
+            <div class="forms">
+                <p>Name: </p>
+                <input class="inputs" type="text" alt="name">
+                <p>Student ID: </p>
+                <input class="inputs" type="text" alt="name">
+                <p>List of Assignments:</p>
+                    <select name="asignments" id="asignments">
+                        <option value="home">Home page</option>
+                        <option value="aboutme">About me</option>
+                        <option value="Recipe">Recipe</option>
+                        <option value="moviereview">Movie Review</option>
+                        <option value="moviereview">Grades Exercies</option>
+                    </select>
+
+                <p>Select entry :</p>
+                <input type="radio" name="entry" value="august">August
+                <input type="radio" name="entry" value="november">November
+                <input type="radio" name="entry" value="costChange">February
+            </div>
+                <div class="conf">
+                    <input type="checkbox" name="confirm" id="confirm" value="confirm">
+                    <label for="confirm">I confirm I am just looking up for my grade</label><br>
+                    <input type="submit" alt="get grade" name="grade" value="Get Grade!">
+                </div>
+
+
+        </form>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+body{
+    padding: 4%;
+}
+.form{
+    width: 40%;
+    margin: auto;
+    border: 2px solid #05b3b8;
+    border-radius: 6px;
+    padding: 2%;
+
+
+}
+
+p{
+    font-size: 13px;
+
+}
+h1{
+    text-align: center;
+    font-family: Calibri;
+    color: #404040;
+
+}
+p,label,p select,option label{
+    font-family: Calibri;
+    color: #404040;
+    font-size: 1.2em;
+}
+
+select,.inputs{
+    height: 2.5em;
+    width: 60%;
+    border: 0;
+    outline: solid 2px #8d8d8d;
+
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=submit] {
+    background-color: #02b7a8;
+    font-weight: bold;
+    color: white;
+    padding: 12px 15px;
+    border: 1px solid #007569;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 25%;
+    margin: auto;
+}
+.conf {
+    margin-top: 5%;
+    text-align: center;
+}
+.forms{
+    margin-left: 7%;
+}
