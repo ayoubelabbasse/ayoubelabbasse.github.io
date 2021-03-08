@@ -1,61 +1,74 @@
-body{
+body {
     background: #9bbca4;
 
     margin-left: 25px;
 }
-a,li{
+
+a, li {
     margin-left: 20px;
-    font-family: 'Nunito Sans',sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     color: #313439;
 }
-h1{
+
+h1 {
     margin-left: 20px;
-    font-family: 'Nunito Sans',sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     color: #000000;
 }
-h2{
+
+h2 {
     margin-left: 20px;
-    font-family: 'Nunito Sans',sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     color: #0f7c59;
 }
-p{
+
+p {
     margin-left: 20px;
-    font-family: 'Nunito Sans',sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
-b{
+
+b {
     color: #00828a;
 }
-span.imdb-link{
+
+span.imdb-link {
     color: crimson;
 }
-.imdb-link:hover{
+
+.imdb-link:hover {
     color: #0087cc;
 }
 
-ul{
+ul {
     list-style-type: circle;
     line-height: 180%;
 }
-ol{
+
+ol {
     line-height: 180%;
 }
-.mood-pic{
- float: left;
+
+.mood-pic {
+    float: left;
 }
-.caps:first-letter{
+
+.caps:first-letter {
     font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 
     font-size: 2em;
 }
-.movie{
+
+.movie {
     list-style-type: none;
     font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
-.movie-detail{
+
+.movie-detail {
     color: #fffc00;
     font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
-.mov{
+
+.mov {
     margin-left: 4%;
     font-size: 13px;
 }

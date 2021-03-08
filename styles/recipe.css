@@ -1,20 +1,22 @@
-h1{
+h1 {
     text-align: center;
-    font-size:  22pt;
+    font-size: 22pt;
     font-weight: bold;
     text-decoration: underline;
     color: #A4A400;
     font-family: "Lucida Sans Unicode";
     background: #F0F0F0;
 }
-h2{
+
+h2 {
     text-decoration: underline;
     font-size: 18pt;
     color: #A4A400;
     font-family: "Lucida Sans Unicode";
-    background-color: #F0F0F0 ;
+    background-color: #F0F0F0;
 }
-body{
+
+body {
     color: #404040;
     font-size: 11pt;
     font-family: Georgia, Garamond;
@@ -24,22 +26,26 @@ body{
     background-repeat: repeat;
 }
 
-ul{
+ul {
     line-height: 150%;
     list-style-image: url("https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif");
 }
-.comments{
-    font-style:italic;
+
+.comments {
+    font-style: italic;
     margin-left: 50px;
     margin-right: 50px;
 }
-.comment{
+
+.comment {
     background-color: #fffc00;
 }
-.link{
+
+.link {
     color: #A4A400;
 }
-.copyright-val{
+
+.copyright-val {
     float: right;
 }
 

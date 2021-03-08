@@ -1,21 +1,25 @@
-h2{
+h2 {
     text-decoration-line: underline;
     margin-left: 20px;
 }
-ul{
+
+ul {
     list-style-type: circle;
     line-height: 180%;
 }
-p.labs{
+
+p.labs {
     font-family: "Lucida Console";
     font-size: 20px;
     margin-left: 20px;
     color: #0087cc;
 }
-li a{
+
+li a {
     color: #0087cc;
     font-family: "Lucida Console";
 }
-li a:hover{
+
+li a:hover {
     color: coral;
 }
