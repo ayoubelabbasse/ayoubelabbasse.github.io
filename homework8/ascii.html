@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ASCIImation</title>
+    <link rel="stylesheet" href="ascii.css">
+    <script type="text/javascript" src="ascii.js"></script>
+    <script type="text/javascript" src="animations.js"></script>
+</head>
+<body>
+<img src="../pictures/heart.png" style="width: 15px; height: 15px">
+<div>
+    <h1>
+        CS472: ASCII Animation Viewer
+    </h1>
+</div>
+<div class="anim">
+    <textarea id="idanimation" name="animation" rows="20" cols="80">
+    </textarea>
+    <br>
+    <fieldset>
+        <legend>Play Controls: </legend>
+        <input type="button" name="start" id="start" onclick="startAnimation()" value="start">
+        <input type="button" name="stop" id="stop" onclick="stopAnimation()" value="stop" disabled>
+    </fieldset>
+    <fieldset>
+        <legend>Animations: </legend>
+        <select id="selectAnimation" onchange="selectAnimation()">
+            <option value="Blank" selected>Blank</option>
+            <option value="Juggler">Juggler</option>
+            <option value="Exercise">Exercise</option>
+            <option value="Bike">Bike</option>
+            <option value="Dive">Dive</option>
+            <option value="Custom">Custom</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Size: </legend>
+        <select id="selectSize" onchange="selectSize()">
+            <!--Tiny (7pt), Small (10pt), Medium (12pt), Large (16pt), Extra Large (24pt), XXL (32pt)-->
+            <option value="Tiny">Tiny</option>
+            <option value="Small">Small</option>
+            <option value="Medium" selected>Medium</option>
+            <option value="Large">Large</option>
+            <option value="ExtraLarge">Extra Large</option>
+            <option value="XXL">XXL</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Speed: </legend>
+        <input type="checkbox"  id="turbo" value="turbo" onchange="turbo()">
+        <label for="turbo">Turbo</label>
+    </fieldset>
+</div>
+
+<div class="validator">
+    <a href="http://validator.w3.org/check?uri=referer"
+       onclick="this.href='http://validator.w3.org/check?uri=' +
+                document.URL"> <img
+            src="../pictures/w3c-html.png"
+            alt="html validator"/></a>
+    <br>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img src="../pictures/vcss.gif" alt="Valid CSS!"/></a>
+    <br>
+    <a href="https://jshint.com/">
+
+        <img src="../pictures/w3c-js.PNG" alt="Valid JS" style="size: 5px"/>
+    </a>
+
+</div>
+
+
+</body>
+</html>
