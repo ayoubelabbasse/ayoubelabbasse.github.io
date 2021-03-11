@@ -18,3 +18,6 @@ function updateList(){
         document.getElementById("accounts").innerHTML=res+"Account Name:  "+accountInfoList[i].accountName+"     Balance:   "+accountInfoList[i].deposit +'\r\n'
     }
 }
+window.onload =function (){
+    document.getElementById('createAccount').onclick=createAccount;
+}
