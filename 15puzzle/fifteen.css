@@ -23,13 +23,11 @@ body, button {
 	position: absolute;
 }
 
-/* This class should be applied to a puzzle piece that can be moved. */
 .movablepiece:hover {
 	border-color: red;
 	color: red;
 }
 
-/* grading styles -- for TAs only; not required by students */
 #gradingarea {
 	position: fixed;
 	right: 0px;
